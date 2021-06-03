@@ -6,10 +6,15 @@
 .row {
 display: flex;
 }
-.col {
-flex: 1;
+.col_side {
+flex: 10%;
+border: 5px solid lightskyblue;
 }
 
+.col_main {
+flex: 80%;
+border: 5px solid lightskyblue;
+}
 
 
 </style>
@@ -17,9 +22,9 @@ flex: 1;
 <body>
 
   <div class="row">
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
+    <div class="col_side">...</div>
+    <div class="col_main">...</div>
+    <div class="col_side">...</div>
     </div>
          
 </body>
